@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		631BC1812EFFBCBC005E9045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631BC1682EFFBCBA005E9045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631BC16F2EFFBCBA005E9045;
+			remoteInfo = NetGuard;
+		};
+		631BC18B2EFFBCBC005E9045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631BC1682EFFBCBA005E9045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631BC16F2EFFBCBA005E9045;
+			remoteInfo = NetGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631BC1702EFFBCBA005E9045 /* NetGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631BC1802EFFBCBC005E9045 /* NetGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631BC18A2EFFBCBC005E9045 /* NetGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		631BC1722EFFBCBA005E9045 /* NetGuard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetGuard;
+			sourceTree = "<group>";
+		};
+		631BC1832EFFBCBC005E9045 /* NetGuardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetGuardTests;
+			sourceTree = "<group>";
+		};
+		631BC18D2EFFBCBC005E9045 /* NetGuardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NetGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631BC16D2EFFBCBA005E9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631BC17D2EFFBCBC005E9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631BC1872EFFBCBC005E9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631BC1672EFFBCBA005E9045 = {
+			isa = PBXGroup;
+			children = (
+				631BC1722EFFBCBA005E9045 /* NetGuard */,
+				631BC1832EFFBCBC005E9045 /* NetGuardTests */,
+				631BC18D2EFFBCBC005E9045 /* NetGuardUITests */,
+				631BC1712EFFBCBA005E9045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631BC1712EFFBCBA005E9045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631BC1702EFFBCBA005E9045 /* NetGuard.app */,
+				631BC1802EFFBCBC005E9045 /* NetGuardTests.xctest */,
+				631BC18A2EFFBCBC005E9045 /* NetGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631BC16F2EFFBCBA005E9045 /* NetGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631BC1942EFFBCBC005E9045 /* Build configuration list for PBXNativeTarget "NetGuard" */;
+			buildPhases = (
+				631BC16C2EFFBCBA005E9045 /* Sources */,
+				631BC16D2EFFBCBA005E9045 /* Frameworks */,
+				631BC16E2EFFBCBA005E9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				631BC1722EFFBCBA005E9045 /* NetGuard */,
+			);
+			name = NetGuard;
+			packageProductDependencies = (
+			);
+			productName = NetGuard;
+			productReference = 631BC1702EFFBCBA005E9045 /* NetGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631BC17F2EFFBCBC005E9045 /* NetGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631BC1972EFFBCBC005E9045 /* Build configuration list for PBXNativeTarget "NetGuardTests" */;
+			buildPhases = (
+				631BC17C2EFFBCBC005E9045 /* Sources */,
+				631BC17D2EFFBCBC005E9045 /* Frameworks */,
+				631BC17E2EFFBCBC005E9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631BC1822EFFBCBC005E9045 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				631BC1832EFFBCBC005E9045 /* NetGuardTests */,
+			);
+			name = NetGuardTests;
+			packageProductDependencies = (
+			);
+			productName = NetGuardTests;
+			productReference = 631BC1802EFFBCBC005E9045 /* NetGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631BC1892EFFBCBC005E9045 /* NetGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631BC19A2EFFBCBC005E9045 /* Build configuration list for PBXNativeTarget "NetGuardUITests" */;
+			buildPhases = (
+				631BC1862EFFBCBC005E9045 /* Sources */,
+				631BC1872EFFBCBC005E9045 /* Frameworks */,
+				631BC1882EFFBCBC005E9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631BC18C2EFFBCBC005E9045 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				631BC18D2EFFBCBC005E9045 /* NetGuardUITests */,
+			);
+			name = NetGuardUITests;
+			packageProductDependencies = (
+			);
+			productName = NetGuardUITests;
+			productReference = 631BC18A2EFFBCBC005E9045 /* NetGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631BC1682EFFBCBA005E9045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					631BC16F2EFFBCBA005E9045 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					631BC17F2EFFBCBC005E9045 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 631BC16F2EFFBCBA005E9045;
+					};
+					631BC1892EFFBCBC005E9045 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 631BC16F2EFFBCBA005E9045;
+					};
+				};
+			};
+			buildConfigurationList = 631BC16B2EFFBCBA005E9045 /* Build configuration list for PBXProject "NetGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631BC1672EFFBCBA005E9045;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 631BC1712EFFBCBA005E9045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631BC16F2EFFBCBA005E9045 /* NetGuard */,
+				631BC17F2EFFBCBC005E9045 /* NetGuardTests */,
+				631BC1892EFFBCBC005E9045 /* NetGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631BC16E2EFFBCBA005E9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631BC17E2EFFBCBC005E9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631BC1882EFFBCBC005E9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631BC16C2EFFBCBA005E9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631BC17C2EFFBCBC005E9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631BC1862EFFBCBC005E9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631BC1822EFFBCBC005E9045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631BC16F2EFFBCBA005E9045 /* NetGuard */;
+			targetProxy = 631BC1812EFFBCBC005E9045 /* PBXContainerItemProxy */;
+		};
+		631BC18C2EFFBCBC005E9045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631BC16F2EFFBCBA005E9045 /* NetGuard */;
+			targetProxy = 631BC18B2EFFBCBC005E9045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		631BC1922EFFBCBC005E9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631BC1932EFFBCBC005E9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631BC1952EFFBCBC005E9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = 864W4A4M76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is required to detect Wi-Fi security status.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublicCVM.NetGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		631BC1962EFFBCBC005E9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = 864W4A4M76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is required to detect Wi-Fi security status.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublicCVM.NetGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		631BC1982EFFBCBC005E9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 864W4A4M76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublicCVM.NetGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetGuard";
+			};
+			name = Debug;
+		};
+		631BC1992EFFBCBC005E9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 864W4A4M76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublicCVM.NetGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetGuard";
+			};
+			name = Release;
+		};
+		631BC19B2EFFBCBC005E9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 864W4A4M76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublicCVM.NetGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetGuard;
+			};
+			name = Debug;
+		};
+		631BC19C2EFFBCBC005E9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 864W4A4M76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublicCVM.NetGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631BC16B2EFFBCBA005E9045 /* Build configuration list for PBXProject "NetGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631BC1922EFFBCBC005E9045 /* Debug */,
+				631BC1932EFFBCBC005E9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631BC1942EFFBCBC005E9045 /* Build configuration list for PBXNativeTarget "NetGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631BC1952EFFBCBC005E9045 /* Debug */,
+				631BC1962EFFBCBC005E9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631BC1972EFFBCBC005E9045 /* Build configuration list for PBXNativeTarget "NetGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631BC1982EFFBCBC005E9045 /* Debug */,
+				631BC1992EFFBCBC005E9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631BC19A2EFFBCBC005E9045 /* Build configuration list for PBXNativeTarget "NetGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631BC19B2EFFBCBC005E9045 /* Debug */,
+				631BC19C2EFFBCBC005E9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631BC1682EFFBCBA005E9045 /* Project object */;
+}
